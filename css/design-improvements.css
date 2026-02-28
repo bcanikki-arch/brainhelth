@@ -659,6 +659,189 @@
 }
 
 /* ================================================
+   CONTACT PAGE HERO
+   ================================================ */
+
+.contact-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 450px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-hero .carousel-overlay {
+  background: rgba(0,0,0,0.3);
+}
+
+.contact-hero .hero-content {
+  z-index: 2;
+  max-width: 800px;
+}
+
+/* ================================================
+   CONTACT INFO CARDS
+   ================================================ */
+
+.contact-info-card {
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.info-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f3ff;
+  transition: all 0.3s ease;
+}
+
+.email-icon {
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.1);
+}
+
+.phone-icon {
+  color: #4facfe;
+  background: rgba(79, 172, 254, 0.1);
+}
+
+.hours-icon {
+  color: #43e97b;
+  background: rgba(67, 233, 123, 0.1);
+}
+
+.contact-info-card:hover .info-icon {
+  transform: scale(1.1) rotateY(10deg);
+}
+
+/* ================================================
+   BRANCH LOCATIONS
+   ================================================ */
+
+.location-card {
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.location-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #007bff, #0d6efd);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.location-card:hover::before {
+  transform: scaleX(1);
+}
+
+.location-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+}
+
+.location-badge {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.location-card .btn-outline-primary:hover,
+.location-card .btn-outline-success:hover,
+.location-card .btn-outline-info:hover {
+  transform: translateX(5px);
+}
+
+/* ================================================
+   SERVICES PAGE HERO
+   ================================================ */
+
+.services-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 450px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-hero .carousel-overlay {
+  background: rgba(0,0,0,0.3);
+}
+
+.services-hero .hero-content {
+  z-index: 2;
+  max-width: 800px;
+}
+
+/* ================================================
+   ABOUT SERVICES SECTION
+   ================================================ */
+
+.about-services {
+  background: white;
+}
+
+/* ================================================
+   ADDITIONAL SERVICE BADGE COLORS
+   ================================================ */
+
+.badge-medicine {
+  color: #e83e8c;
+}
+
+.badge-kids {
+  color: #fd7e14;
+}
+
+/* ================================================
+   ADDITIONAL ICONS
+   ================================================ */
+
+.baby-icon {
+  background: linear-gradient(135deg, #fd7e14 0%, #ff9800 100%);
+}
+
+.medicine-icon {
+  background: linear-gradient(135deg, #e83e8c 0%, #ff1744 100%);
+}
+
+/* ================================================
+   QUICK CONTACT INFO
+   ================================================ */
+
+.quick-contact-info {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.quick-contact-info .d-flex {
+  transition: all 0.3s ease;
+}
+
+.quick-contact-info .d-flex:hover {
+  padding-left: 1rem;
+}
+
+/* ================================================
    GENERAL IMPROVEMENTS
    ================================================ */
 
