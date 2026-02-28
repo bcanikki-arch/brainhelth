@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-
+new changes on about page
     <section class="about_page">
     <div class="container">
         <div class="row">
