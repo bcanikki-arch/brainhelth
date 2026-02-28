@@ -7,11 +7,10 @@ include('header.php'); ?>
         <div id="carouselExample" class="carousel" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/doctor_1.avif" class="d-block w-100" alt="...">
+              <img src="images/doctor_1.jpg" class="d-block w-100" alt="...">
               <div class="image-text">
-                <h2 class="top_heading">24 HRS Home Nursing Care Services in Jaipur at Affordable Cost Get reliable Home
-                  Nursing service's in with BrainhealthCareatHome.</h2>
-
+                <h2 class="top_heading">Affordable 24/7 Home Nursing Services in Jaipur
+                  Brain Health Care at Home delivers expert nursing care at your doorstep with trust, safety, and compassion.</h2>
                 <button class="all-btn3"><a href="tel:+91-9414111488">Call Us</a></button>
                 <button class="all-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</button>
               </div>
@@ -26,26 +25,24 @@ include('header.php'); ?>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
+          <!--<img class=" w-100 rounded-3" src="images/about-us-img.jpg" alt="">-->
+          <img class=" w-100 rounded-3" src="images/abouthome.jpg" alt="">
+        </div>
+        <div class="col-md-6">
           <div class="take-about">
             <h2 class="sec_heading"> About Us.</h2>
 
-            <p class="sec_paragraph">At <strong> Brain Health Care </strong> we pride ourselves on a commitment to
-              excellence and a passion for making a positive impact. With a dedicated team of professionals, we strive
-              to provide unparalleled health care solutions. Our values of integrity, innovation, and client-centricity
-              drive every aspect of our business. From [specific services or products] to our customer-centric approach,
-              we aim to exceed expectations. With a proven track record of success, we look forward to continuing our
-              journey of delivering quality and reliability. Join us as we navigate health care with expertise,
-              integrity, and a genuine dedication to our clients' success.
-            </p>
+            <p class="sec_paragraph">At Brain Health Care, caring is not just our service — it is our responsibility. We are passionate about providing dependable home healthcare solutions that bring comfort and peace of mind to families.
 
-            <button> <a href="about.html">Join Now</a></button>
+              Our experienced nurses and caregivers work with dedication, compassion, and professionalism to ensure the best possible support for patients at home. Guided by our values of trust, innovation, and client-focused care, we aim to make quality healthcare accessible and affordable.
+
+              With a strong commitment to excellence, we continue to serve our community with integrity and heartfelt dedication.
+                    </p>
+
+            <button> <a href="about.php">Join Now</a></button>
           </div>
 
 
-        </div>
-        <div class="col-md-6">
-          <!--<img class=" w-100 rounded-3" src="images/about-us-img.jpg" alt="">-->
-          <img class=" w-100 rounded-3" src="images/abouthome.jpg" alt="">
         </div>
       </div>
     </div>
