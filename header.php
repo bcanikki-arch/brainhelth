@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">   
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/design-improvements.css">
     <style>
         .our_services .col-md-4 {
     margin-bottom: 40px !important;
@@ -78,10 +79,10 @@
            
             
            
+            <div class="book-now">
+              <button class="all-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</button>
+            </div>
           </ul>
-          <div class="book-now">
-            <button class="all-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</button>
-          </div>
           
         </div>
       </div>
