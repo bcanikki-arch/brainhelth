@@ -26,7 +26,7 @@
   
       </div>
       <div class="col-md-6">
-        <img class=" w-100 rounded-3" src="images/services-img.jpg" alt="">
+        <img class=" w-100 rounded-3" src="https://brainhealthcareathome.in/images/services-img.jpg" alt="">
       </div>
     </div>
   </div>
@@ -46,7 +46,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="nursing-care text-start">
-                <img src="images/nurshing-services.jpg" alt="">
+                <img src="images\female-doctor-examining-sick-patient-with-stethoscope-while-male-doctor-analyzing-reports-hospital.jpg" alt="">
                 <div class="highely">
                 <h2 class="sub_heading text-dark">Nursing Care At Home</h2>
                 <p class="sec_paragraph">Nursing Care involves expert healthcare delivery by skilled professionals, addressing diverse needs with precision. From health assessments to emotional support, our dedicated team ensures holistic well-being. With a commitment to excellence, our Nursing Care strives to enhance lives through personalized and compassionate healthcare services.</p>
@@ -56,7 +56,7 @@
             </div>
             <div class="col-md-4">
               <div class="nursing-care text-start">
-                <img src="images/elder-care.jpg" alt="">
+                <img src="images\doctor-posing-with-her-patient.jpg" alt="">
                 <div class="highely">
                 <h2 class="sub_heading text-dark">Elder Care / General Care At Home</h2>
 
@@ -67,7 +67,7 @@
             </div>
             <div class="col-md-4">
               <div class="nursing-care text-start">
-                <img src="images/tracheostomy-care-services.jpg" alt="">
+                <img src="images/disabled-senior-patient-working-out-home-with-resistance-band-guidance-nurse.jpg" alt="">
                 <div class="highely">
                 <h2 class="sub_heading text-dark">Physiotherphy At Home</h2>
                 <p class="sec_paragraph">Physiotherapy is a specialized healthcare service focused on restoring and enhancing physical functionality. Our experienced physiotherapists employ evidence-based techniques to address musculoskeletal issues, injuries, and promote overall wellness. Through tailored exercises and manual therapy, we aim to empower individuals to regain mobility, alleviate pain, and optimize their physical health.
@@ -82,7 +82,7 @@
           <div class="row pt-4">
             <div class="col-md-4">
               <div class="nursing-care text-start">
-                <img src="images/all_lab_test.jpg" alt="">
+                <img src="images/researching-laboratory_1384-150.avif" alt="">
                 <div class="highely">
                 <h2 class="sub_heading text-dark">All Lab Test Collection At Home</h2>
                 <p class="sec_paragraph text-lowercase">Experience the convenience of comprehensive healthcare with our 'All Lab Tests at Home' service. Skip the hassle of clinic visits—our trained professionals bring the lab to your doorstep. Accurate and efficient, we ensure your health is our priority, making wellness accessible and stress-free."
@@ -94,7 +94,7 @@
             </div>
             <div class="col-md-4">
               <div class="nursing-care text-start">
-                <img src="images/madical-incluments.jpg" alt="">
+                <img src="images/convenience-medical-equipment-home_87720-258481.jpg" alt="">
                 <div class="highely">
                 <h2 class="sub_heading text-dark">Medical Equipments At Home</h2>
                 <p class="sec_paragraph">Our medical equipment solutions encompass cutting-edge technology to enhance patient care. From diagnostic tools to life-saving devices, we offer a comprehensive range to meet healthcare needs. Our commitment lies in providing reliable and innovative medical equipment that empowers healthcare professionals and improves patient outcomes.</p>
@@ -104,7 +104,7 @@
             </div>
             <div class="col-md-4">
               <div class="nursing-care text-start">
-                <img src="images/vaccinationinfusion_at_home" alt="">
+                <img src="images/closeup-disabled-soldier-getting-immunization-against-coronavirus-clinic_116547-22552.avif" alt="">
                 <div class="highely">
                 <h2 class="sub_heading text-dark">Vaccination / infusion At Home</h2>
                 <p class="sec_paragraph">Our Vaccination/Infusion at Home service brings healthcare to your doorstep. Skilled professionals administer vaccinations or infusions in the comfort of your home, ensuring a convenient and safe healthcare experience. Trust us to provide expert care with a personal touch, promoting your well-being without the need for a clinic visit. </p>
@@ -117,7 +117,7 @@
           <div class="row pt-4">
             <div class="col-md-4">
               <div class="nursing-care text-start">
-                <img src="images/medicine_home_delivery.jpg" alt="">
+                <img src="images/medium-shot-man-carrying-crate-food_23-2148773386.avif" alt="">
                 <div class="highely">
                 <h2 class="sub_heading text-dark">Medicine Home Delivery At Home</h2>
                 <p class="sec_paragraph">Our Medicine Home Delivery service ensures convenience and accessibility to essential medications. With a seamless ordering process, prompt deliveries, and a commitment to quality, we aim to enhance your healthcare experience. Trust us to bring your prescriptions right to your doorstep, ensuring your well-being is just a delivery away.
