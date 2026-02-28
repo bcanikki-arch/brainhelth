@@ -1,5 +1,4 @@
 <?php include('header.php'); ?>
-new changes on about page
     <section class="about_page">
     <div class="container">
         <div class="row">
@@ -17,7 +16,6 @@ new changes on about page
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="take-about">
           <h2 class="sec_heading"> About Us.</h2>
           
           <p class="sec_paragraph">Welcome to our Brain Health Care platform, where we prioritize the well-being of your most vital organ. Committed to fostering cognitive wellness, we blend cutting-edge research with personalized care to optimize brain function. Our team of experienced neuroscientists, doctors, and healthcare professionals collaboratively design tailored programs that encompass cognitive exercises, nutritional guidance, and lifestyle adjustments. At Brain Health Care, we recognize the intricate connection between mental and physical health, addressing both aspects to promote holistic well-being. Whether you seek proactive measures for cognitive enhancement or support for specific conditions, our comprehensive approach is dedicated to empowering you on your journey to a healthier mind. Join us in unlocking the full potential of your brain and embracing a life of cognitive vitality. Your mental wellness is our priority, and together, we can build a foundation for a brighter, sharper future.
