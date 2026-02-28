@@ -154,70 +154,70 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript">
 
-    $(document).ready(function () {
-      $("#callbackForm").submit(function (e) {
-        e.preventDefault(); // Prevent the default form submission
+    // $(document).ready(function () {
+    //   $("#callbackForm").submit(function (e) {
+    //     e.preventDefault(); // Prevent the default form submission
 
-        // Serialize the form data
-        var formData = $(this).serialize();
+    //     // Serialize the form data
+    //     var formData = $(this).serialize();
 
-        // Send a POST request to your PHP script
-        $.ajax({
-          type: "POST",
-          url: "mail_form.php", // Update with the correct URL
-          data: formData,
-          success: function (response) {
-            // Display the response message on your webpage
-            $("#responseMessage1").html("Your Enquiry has been successfully submitted!");
+    //     // Send a POST request to your PHP script
+    //     $.ajax({
+    //       type: "POST",
+    //       url: "mail_form.php", // Update with the correct URL
+    //       data: formData,
+    //       success: function (response) {
+    //         // Display the response message on your webpage
+    //         $("#responseMessage1").html("Your Enquiry has been successfully submitted!");
 
-            // Clear the form fields
-            document.getElementById("callbackForm").reset();
-          },
-          error: function () {
-            // Handle errors here
-            alert("An error occurred while submitting the form.");
-          }
-        });
-      });
-    });
+    //         // Clear the form fields
+    //         document.getElementById("callbackForm").reset();
+    //       },
+    //       error: function () {
+    //         // Handle errors here
+    //         alert("An error occurred while submitting the form.");
+    //       }
+    //     });
+    //   });
+    // });
 
 
-    $(document).ready(function () {
-      $("#staticForm").submit(function (e) {
-        e.preventDefault();
+    // $(document).ready(function () {
+    //   $("#staticForm").submit(function (e) {
+    //     e.preventDefault();
 
-        // Disable the submit button to prevent multiple submissions
-        $("#submitButton").attr("disabled", true);
+    //     // Disable the submit button to prevent multiple submissions
+    //     $("#submitButton").attr("disabled", true);
 
-        var formData = $(this).serialize();
+    //     var formData = $(this).serialize();
 
-        $.ajax({
-          type: "POST",
-          url: "model_form.php",
-          data: formData,
-          success: function (response) {
-            // Hide the form fields and show the thank-you message
-            $(".sohna_modal_bar").hide();
-            $("#thankYouMessage").show();
+    //     $.ajax({
+    //       type: "POST",
+    //       url: "model_form.php",
+    //       data: formData,
+    //       success: function (response) {
+    //         // Hide the form fields and show the thank-you message
+    //         $(".sohna_modal_bar").hide();
+    //         $("#thankYouMessage").show();
 
-            // Optionally, set a timer to automatically close the modal after a few seconds
-            setTimeout(function () {
-              $('#exampleModal').modal('hide');
-              // Reset the form for the next use and re-enable the submit button
-              $("#staticForm")[0].reset();
-              $("#submitButton").attr("disabled", false);
-              // Show the form and hide the thank-you message for the next use
-              $(".sohna_modal_bar").show();
-              $("#thankYouMessage").hide();
-            }, 3000); // Adjust time as necessary
-          },
-          error: function (xhr, status, error) {
-            // Re-enable the submit button in case of an error
-            $("#submitButton").attr("disabled", false);
-            // Handle error - show message to user, log to console, etc.
-          }
-        });
-      });
-    });
+    //         // Optionally, set a timer to automatically close the modal after a few seconds
+    //         setTimeout(function () {
+    //           $('#exampleModal').modal('hide');
+    //           // Reset the form for the next use and re-enable the submit button
+    //           $("#staticForm")[0].reset();
+    //           $("#submitButton").attr("disabled", false);
+    //           // Show the form and hide the thank-you message for the next use
+    //           $(".sohna_modal_bar").show();
+    //           $("#thankYouMessage").hide();
+    //         }, 3000); // Adjust time as necessary
+    //       },
+    //       error: function (xhr, status, error) {
+    //         // Re-enable the submit button in case of an error
+    //         $("#submitButton").attr("disabled", false);
+    //         // Handle error - show message to user, log to console, etc.
+    //       }
+    //     });
+    //   });
+    // });
 
   </script>
