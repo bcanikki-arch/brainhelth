@@ -485,8 +485,10 @@
           <p class="sec_paragraph text-muted">Fill out the form below, and our team will contact you to discuss your healthcare needs and schedule services.</p>
         </div>
 
-        <div id="responseMessage"></div>
-        <form id="callbackForm" method="post">
+        <!-- <div id="responseMessage"></div>
+        <form id="callbackForm" method="post"> -->
+        <form id="callbackForm " class="ajax-contact-form" method="post">
+          <div class="responseMessage mb-3"></div>
           <div class="forms">
             <div class="row pt-3">
               <div class="col ">

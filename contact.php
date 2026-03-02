@@ -19,7 +19,7 @@
                 <span class="badge bg-primary mb-3">Contact Information</span>
                 <h2 class="sec_heading">Reach Out to Us</h2>
                 <p class="sec_paragraph text-muted">Multiple locations across Jaipur for your convenience</p>
-                         </div>
+            </div>
         </div>
         <div class="row g-4">
             <!-- Email -->
@@ -72,8 +72,8 @@
                     <p class="sec_paragraph">Fill out the form below, and a member of our team will get back to you as soon as possible.
                         We appreciate your interest in ResoHub and look forward to assisting you.</p>
                 </div>
-                <div id="responseMessage"></div>
-                <form id="callbackForm" method="post">
+                <form id="callbackForm " class="ajax-contact-form" method="post">
+                    <div class="responseMessage mb-3"></div>
                     <div class="forms">
                         <div class="row pt-3">
                             <div class="col ">
@@ -125,4 +125,5 @@
 
 <?php include('footer.php'); ?>
 </body>
+
 </html>

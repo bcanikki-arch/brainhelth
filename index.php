@@ -457,8 +457,8 @@ include('header.php'); ?>
             <p class="sec_paragraph text-muted">Fill out the form below, and a member of our team will get back to you as soon as possible. We appreciate your trust and look forward to assisting you.</p>
           </div>
 
-          <div id="responseMessage"></div>
-          <form id="callbackForm" method="post">
+          <form id="callbackForm " class="ajax-contact-form" method="post">
+            <div class="responseMessage mb-3"></div>
             <div class="forms">
               <div class="row pt-3">
                 <div class="col ">

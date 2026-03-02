@@ -5,14 +5,15 @@ $response = array();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $firstname = trim($_POST['firstname']);
-    $lastname  = trim($_POST['lastname']);
-    $email     = trim($_POST['email']);
-    $phone     = trim($_POST['phone']);
-    $message   = trim($_POST['message']);
+    $firstname = trim($_POST['firstname'] ?? '');
+    $lastname  = trim($_POST['lastname'] ?? '');
+    $email     = trim($_POST['email'] ?? '');
+    $phone     = trim($_POST['phone'] ?? '');
+    $message   = trim($_POST['message'] ?? '');
+    $service   = trim($_POST['service'] ?? '');
 
     // Validation
-    if (empty($firstname) || empty($email) || empty($phone)) {
+    if (empty($firstname) || empty($email) || empty($phone) ) {
         $response['status'] = "error";
         $response['message'] = "All required fields are mandatory!";
     } 
@@ -23,11 +24,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     elseif (!preg_match('/^[0-9]{10}$/', $phone)) {
         $response['status'] = "error";
         $response['message'] = "Phone number must be 10 digits!";
-    }
+    }    
     else {
 
-        $stmt = $conn->prepare("INSERT INTO contact_messages (firstname, lastname, email, phone, message) VALUES (?, ?, ?, ?, ?)");
-        $stmt->bind_param("sssss", $firstname, $lastname, $email, $phone, $message);
+        $stmt = $conn->prepare("INSERT INTO contact_messages 
+        (firstname, lastname, email, phone, service, message) 
+        VALUES (?, ?, ?, ?, ?, ?)");
+
+        // ✅ 6 types = 6 variables
+        $stmt->bind_param("ssssss", 
+            $firstname, 
+            $lastname, 
+            $email, 
+            $phone, 
+            $service, 
+            $message
+        );
 
         if ($stmt->execute()) {
             $response['status'] = "success";
@@ -42,3 +54,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 echo json_encode($response);
+exit;
