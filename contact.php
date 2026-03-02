@@ -122,40 +122,7 @@
     </div>
 </section>
 
-<script>
-    document.getElementById("callbackForm").addEventListener("submit", function(e) {
-        e.preventDefault();
 
-        let form = this;
-        let formData = new FormData(form);
-
-        fetch("ajax_contact.php", {
-                method: "POST",
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-
-                let messageDiv = document.getElementById("responseMessage");
-
-                if (data.status === "success") {
-                    messageDiv.innerHTML = `<div class="alert alert-success">${data.message}</div>`;
-                    form.reset();
-                } else {
-                    messageDiv.innerHTML = `<div class="alert alert-danger">${data.message}</div>`;
-                }
-
-                // Auto hide after 2 seconds
-                setTimeout(() => {
-                    messageDiv.innerHTML = "";
-                }, 2000);
-
-            })
-            .catch(error => {
-                console.log(error);
-            });
-    });
-</script>
 <?php include('footer.php'); ?>
 </body>
 </html>

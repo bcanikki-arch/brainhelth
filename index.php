@@ -1,5 +1,6 @@
-<?php  
+<?php
 include('header.php'); ?>
+
 <body>
   <!-- Hero Section -->
   <section class="hero-section image-slider">
@@ -375,7 +376,7 @@ include('header.php'); ?>
           </div>
         </div>
       </div>
-      
+
       <div class="row g-4">
         <div class="col-md-4">
           <div class="testimonial-card card border-0 shadow-sm h-100 p-4">
@@ -456,65 +457,43 @@ include('header.php'); ?>
             <p class="sec_paragraph text-muted">Fill out the form below, and a member of our team will get back to you as soon as possible. We appreciate your trust and look forward to assisting you.</p>
           </div>
 
-          <form id="callbackForm" method="post" action="mail_form.php" novalidate>
+          <div id="responseMessage"></div>
+          <form id="callbackForm" method="post">
             <div class="forms">
-              <!-- Name Row -->
-              <div class="row pt-3 g-3">
-                <div class="col-md-6">
-                  <label for="firstName" class="form-label fw-bold">First Name</label>
-                  <input type="text" class="form-control form-control-lg border-1" id="firstName" 
-                    placeholder="Enter Your First Name" name="firstname" required>
-                  <div class="invalid-feedback">
-                    Please provide a first name.
-                  </div>
+              <div class="row pt-3">
+                <div class="col ">
+                  <label for="firstName">First Name</label>
+
+                  <input type="text" class="form-control" required id="firstName" placeholder="Enter First Name" name="firstname">
                 </div>
-                <div class="col-md-6">
-                  <label for="lastName" class="form-label fw-bold">Last Name</label>
-                  <input type="text" class="form-control form-control-lg border-1" id="lastName" 
-                    placeholder="Enter Your Last Name" name="lastname" required>
-                  <div class="invalid-feedback">
-                    Please provide a last name.
-                  </div>
+                <div class="col">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" class="form-control" requiredid="lastName" placeholder="Enter Last Name" name="lastname">
                 </div>
+
+              </div>
+              <div class="row pt-4 mb-4">
+                <div class="col">
+                  <label for="email">Your Email</label>
+                  <input type="text" class="form-control" required id="email" placeholder="Enter Your Email" name="email">
+                </div>
+                <div class="col">
+                  <label for="contact">Contact Number</label>
+                  <input type="text" class="form-control" required id="contact" placeholder="Enter Contact Number" name="phone">
+                </div>
+
+
               </div>
 
-              <!-- Email & Phone Row -->
-              <div class="row pt-3 g-3">
-                <div class="col-md-6">
-                  <label for="email" class="form-label fw-bold">Email Address</label>
-                  <input type="email" class="form-control form-control-lg border-1" id="email" 
-                    placeholder="Enter Your Email" name="email" required>
-                  <div class="invalid-feedback">
-                    Please provide a valid email address.
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <label for="contact" class="form-label fw-bold">Contact Number</label>
-                  <input type="tel" class="form-control form-control-lg border-1" id="contact" 
-                    placeholder="Enter Your Phone Number" name="phone" pattern="[0-9\-\+\(\)\s]{10,}" required>
-                  <div class="invalid-feedback">
-                    Please provide a valid phone number.
-                  </div>
-                </div>
+              <div class="col">
+
+                <label class="optinal" for="comment">Your message (optional)</label>
+                <textarea class="form-control" rows="5" id="comment" name="message"></textarea>
               </div>
 
-              <!-- Message -->
-              <div class="mt-3">
-                <label for="comment" class="form-label fw-bold">Your Message</label>
-                <textarea class="form-control form-control-lg border-1" rows="5" id="comment" 
-                  name="message" placeholder="Tell us how we can help..." required></textarea>
-                <div class="invalid-feedback">
-                  Please provide a message.
-                </div>
-              </div>
-
-              <!-- Submit Button -->
-              <button class="btn btn-primary btn-lg w-100 mt-4" type="submit">
-                <i class="fa-solid fa-paper-plane me-2"></i>Send Message
-              </button>
+              <button class="all-btn mt-3" type="submit" value="Submit">Send Message </button>
             </div>
           </form>
-          <div id="responseMessage1" class="mt-3"></div>
         </div>
 
         <!-- Map Section -->
@@ -556,7 +535,7 @@ include('header.php'); ?>
     </div>
   </section>
 
- <?php include('footer.php'); ?>
+  <?php include('footer.php'); ?>
 
 </body>
 

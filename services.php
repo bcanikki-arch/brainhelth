@@ -80,7 +80,7 @@
               <span class="feature-tag">Specialized Care</span>
               <span class="feature-tag">Compassionate</span>
             </div>
-            
+
             <button class="btn btn-service w-100" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-phone me-2"></i>Call Now</button>
           </div>
         </div>
@@ -471,9 +471,9 @@
   </div>
 </section>
 
-      
 
-   
+
+
 <!-- Contact Section -->
 <section class="contact-details py-5" id="contact">
   <div class="container contact-details2 gap-all">
@@ -485,38 +485,43 @@
           <p class="sec_paragraph text-muted">Fill out the form below, and our team will contact you to discuss your healthcare needs and schedule services.</p>
         </div>
 
-        <form id="callbackForm" method="post" action="mail_form.php" novalidate>
+        <div id="responseMessage"></div>
+        <form id="callbackForm" method="post">
           <div class="forms">
-            <div class="row pt-3 g-3">
-              <div class="col-md-6">
-                <label for="firstName" class="form-label fw-bold">First Name</label>
-                <input type="text" class="form-control form-control-lg border-1" id="firstName" placeholder="Enter Your First Name" name="firstname" required>
+            <div class="row pt-3">
+              <div class="col ">
+                <label for="firstName">First Name</label>
+
+                <input type="text" class="form-control" required id="firstName" placeholder="Enter First Name" name="firstname">
               </div>
-              <div class="col-md-6">
-                <label for="lastName" class="form-label fw-bold">Last Name</label>
-                <input type="text" class="form-control form-control-lg border-1" id="lastName" placeholder="Enter Your Last Name" name="lastname" required>
+              <div class="col">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" requiredid="lastName" placeholder="Enter Last Name" name="lastname">
               </div>
+
             </div>
-            <div class="row pt-3 g-3">
-              <div class="col-md-6">
-                <label for="email" class="form-label fw-bold">Email Address</label>
-                <input type="email" class="form-control form-control-lg border-1" id="email" placeholder="Enter Your Email" name="email" required>
+            <div class="row pt-4 mb-4">
+              <div class="col">
+                <label for="email">Your Email</label>
+                <input type="text" class="form-control" required id="email" placeholder="Enter Your Email" name="email">
               </div>
-              <div class="col-md-6">
-                <label for="contact" class="form-label fw-bold">Contact Number</label>
-                <input type="tel" class="form-control form-control-lg border-1" id="contact" placeholder="Enter Your Phone Number" name="phone" required>
+              <div class="col">
+                <label for="contact">Contact Number</label>
+                <input type="text" class="form-control" required id="contact" placeholder="Enter Contact Number" name="phone">
               </div>
+
+
             </div>
-            <div class="mt-3">
-              <label for="comment" class="form-label fw-bold">Message</label>
-              <textarea class="form-control form-control-lg border-1" rows="5" id="comment" name="message" placeholder="Tell us which services interest you..." required></textarea>
+
+            <div class="col">
+
+              <label class="optinal" for="comment">Your message (optional)</label>
+              <textarea class="form-control" rows="5" id="comment" name="message"></textarea>
             </div>
-            <button class="btn btn-primary btn-lg w-100 mt-4" type="submit">
-              <i class="fa-solid fa-paper-plane me-2"></i>Send Inquiry
-            </button>
+
+            <button class="all-btn mt-3" type="submit" value="Submit">Send Message </button>
           </div>
         </form>
-        <div id="responseMessage1" class="mt-3"></div>
       </div>
 
       <div class="col-lg-5">
@@ -560,6 +565,7 @@
     </div>
   </div>
 </section>
- <?php include('footer.php'); ?>
+<?php include('footer.php'); ?>
 </body>
+
 </html>
