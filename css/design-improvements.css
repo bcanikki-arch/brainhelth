@@ -617,7 +617,7 @@
    ================================================ */
 
 .about-hero {
-  background: url('../images/about-hero.jpg') center/cover no-repeat;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 450px;
   position: relative;
   display: flex;
@@ -625,9 +625,6 @@
   justify-content: center;
 }
 
-.about-hero .carousel-overlay {
-  background: rgba(0,0,0,0.5);
-}
 
 .about-hero .hero-content {
   z-index: 2;

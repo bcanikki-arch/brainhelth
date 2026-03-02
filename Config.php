@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username   = "root";
 $password   = "";
-$dbname     = "brainhealth"; // apna database name
+$dbname     = "brainhealth"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
