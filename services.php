@@ -80,6 +80,7 @@
               <span class="feature-tag">Specialized Care</span>
               <span class="feature-tag">Compassionate</span>
             </div>
+            
             <button class="btn btn-service w-100" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-phone me-2"></i>Call Now</button>
           </div>
         </div>
@@ -559,21 +560,6 @@
     </div>
   </div>
 </section>
-
-<script>
-  (function() {
-    'use strict';
-    window.addEventListener('load', function() {
-      var forms = document.querySelectorAll('form[novalidate]');
-      Array.prototype.slice.call(forms).forEach(function(form) {
-        form.addEventListener('submit', function(event) {
-          if (!form.checkValidity()) {
-            event.preventDefault();
-            event.stopPropagation();
-          }
-          form.classList.add('was-validated');
-        }, false);
-      });
-    }, false);
-  })();
-</script>
+ <?php include('footer.php'); ?>
+</body>
+</html>
