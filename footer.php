@@ -91,48 +91,50 @@
           </div>
           <form id="staticForm" class="ajax-contact-form" method="post" style="background:none;">
             <div class="responseMessage mb-3"></div>
-            <div class="form-group">
-              <label for="firstname">First Name</label>
-              <input placeholder="Your name" id="firstname" name="firstname" type="text" tabindex="1" required=""
-                autofocus="">
-            </div>
-            <div class="form-group">
-              <label for="lastname">Last Name</label>
-              <input placeholder="Your last name" id="lastname" name="lastname" type="text" tabindex="2" required="">
-            </div>
-            <div class="form-group">
-              <label for="mobile_no">Mobile No.</label>
-              <input placeholder="Mobile No." id="mobile_no" type="phone" name="phone" tabindex="2" required="">
-            </div>
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input placeholder="Your Email Address" id="email" type="email" name="email" tabindex="2" required="">
-            </div>
-            <div class="form-group">
-              <label for="service">Services</label>
-              <select class="form-select" name="service" aria-label="Default select example" id="investmentHorizon"
-                name="investment_horizon">
-                <option value="1">Nursing Care At Home</option>
-                <option value="2">Doctor Visit At Home</option>
-                <option value="3">Trained Attendant At Home</option>
-                <option value="4">Elder Care At Home</option>
-                <option value="5">Physiotherphy At Home</option>
-                <option value="6">Ambulance At Home</option>
-                <option value="7">Medical Equipment At Home</option>
-                <option value="8">ICU At Home</option>
-                <option value="9">Mother &amp; Child Care At Home</option>
-                <option value="10">Sample Collection At Home</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="message"> Message</label>
-              <textarea placeholder="Type your Message Here...." tabindex="5" id="message" name="message"
-                required=""></textarea>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstname" class="form-label">First Name</label>
+                <input class="form-control" placeholder="Your name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastname" class="form-label">Last Name</label>
+                <input class="form-control" placeholder="Your last name" id="lastname" name="lastname" type="text" tabindex="2" required>
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <label for="mobile_no" class="form-label">Mobile No.</label>
+                <input class="form-control" placeholder="Mobile No." id="mobile_no" type="tel" name="phone" tabindex="2" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input class="form-control" placeholder="Your Email Address" id="email" type="email" name="email" tabindex="2" required>
+              </div>
+
+              <div class="col-12 mb-3">
+                <label for="service" class="form-label">Services</label>
+                <select class="form-select" id="service" name="service">
+                  <option disabled selected value="">Select a service</option>
+                  <option value="Nursing Care At Home">Nursing Care At Home</option>
+                  <option value="Doctor Visit At Home">Doctor Visit At Home</option>
+                  <option value="Trained Attendant At Home">Trained Attendant At Home</option>
+                  <option value="Elder Care At Home">Elder Care At Home</option>
+                  <option value="Physiotherphy At Home">Physiotherphy At Home</option>
+                  <option value="Ambulance At Home">Ambulance At Home</option>
+                  <option value="Medical Equipment At Home">Medical Equipment At Home</option>
+                  <option value="ICU At Home">ICU At Home</option>
+                  <option value="Mother & Child Care At Home">Mother &amp; Child Care At Home</option>
+                  <option value="Sample Collection At Home">Sample Collection At Home</option>
+                </select>
+              </div>
+
+              <div class="col-12 mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" placeholder="Type your Message Here...." tabindex="5" id="message" name="message" rows="3" required></textarea>
+              </div>
             </div>
 
-            <div class="submited">
-              <button class="all-btn" type="submit" value="Submit">Submit</button>
-
+            <div class="submited d-grid mt-2">
+              <button class="all-btn btn btn-primary" type="submit">Submit</button>
             </div>
           </form>
 
