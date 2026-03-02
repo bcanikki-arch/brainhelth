@@ -59,7 +59,7 @@
           <div class="copyright text-center">
             <h1>
               Copyright by <strong> Brain health care at home.</strong> All Rights Reserved |<strong> <a
-                  href="https://hbkart.in/">Designed and Developed by IT-Solutions </a></strong>|
+                  href="https://gtechlogicsindia.com/">Designed and Developed Gtech Logics India </a></strong>|
             </h1>
           </div>
         </div>
