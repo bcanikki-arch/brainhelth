@@ -560,38 +560,4 @@ include('header.php'); ?>
 
 </body>
 
-<!-- Bootstrap JS & Form Validation -->
-<script>
-  // Form Validation
-  (function() {
-    'use strict';
-    window.addEventListener('load', function() {
-      var forms = document.querySelectorAll('form[novalidate]');
-      Array.prototype.slice.call(forms).forEach(function(form) {
-        form.addEventListener('submit', function(event) {
-          if (!form.checkValidity()) {
-            event.preventDefault();
-            event.stopPropagation();
-          }
-          form.classList.add('was-validated');
-        }, false);
-      });
-    }, false);
-  })();
-
-  // Smooth scroll
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
-      }
-    });
-  });
-</script>
-
 </html>
