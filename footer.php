@@ -4,8 +4,7 @@
       <div class="col-md-3">
         <div class="sec-1">
           <img class="w-100" src="images/care_taker_logo.png" alt="">
-          <p class="sec_paragraph">Yes we at Brain Health care At Home jaipur Center are working with the sole aim of
-            serving. The hospitality services are always available person can need a help at any time.</p>
+          <p class="sec_paragraph">At Brain Health Care At Home Jaipur Center, we work with the sole aim of serving people. Our hospitality services are available at all times, ensuring support whenever someone needs help.</p>
         </div>
       </div>
       <div class="col-md-2">
@@ -60,7 +59,7 @@
         <div class="copyright text-center">
           <h1>
             Copyright by <strong> Brain health care at home.</strong> All Rights Reserved |<strong> <a
-                href="https://hbkart.in/">Designed and Developed by IT-Solutions </a></strong>|
+                href="https://gtechlogicsindia.com/">Designed and Developed Gtech Logics India </a></strong>|
           </h1>
         </div>
       </div>
@@ -155,40 +154,6 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-<script>
-  // document.getElementById("callbackForm").addEventListener("submit", function(e) {
-  //     e.preventDefault();
-
-  //     let form = this;
-  //     let formData = new FormData(form);
-
-  //     fetch("ajax_contact.php", {
-  //             method: "POST",
-  //             body: formData
-  //         })
-  //         .then(response => response.json())
-  //         .then(data => {
-
-  //             let messageDiv = document.getElementById("responseMessage");
-
-  //             if (data.status === "success") {
-  //                 messageDiv.innerHTML = `<div class="alert alert-success">${data.message}</div>`;
-  //                 form.reset();
-  //             } else {
-  //                 messageDiv.innerHTML = `<div class="alert alert-danger">${data.message}</div>`;
-  //             }
-
-  //             // Auto hide after 2 seconds
-  //             setTimeout(() => {
-  //                 messageDiv.innerHTML = "";
-  //             }, 2000);
-
-  //         })
-  //         .catch(error => {
-  //             console.log(error);
-  //         });
-  // });
-</script>
 <script>
   $(document).on("submit", ".ajax-contact-form", function(e) {
     e.preventDefault();
