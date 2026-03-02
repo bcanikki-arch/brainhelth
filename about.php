@@ -223,14 +223,7 @@
           <h3 class="sub_heading">Visit Our Clinic</h3>
           <p class="text-muted">Find us on the map or get directions to visit our office.</p>
         </div>
-        <div class="map_contact rounded-3 overflow-hidden shadow-sm" style="min-height: 450px;">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.48446896588823!2d75.78989738719902!3d26.847854962073487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db7302f6cbc81%3A0xe2ca4d5ea2b17333!2sBrain%20Health%20Care%20At%20Home%20%7C%20Best%20Home%20Nursing%20Care%20Services%20in%20Jaipur%20%7C!5e0!3m2!1sen!2sin!4v1699253498861!5m2!1sen!2sin"
-            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade" title="Brain Health Care Location"></iframe>
-        </div>
-
-        <!-- Contact Info Cards -->
+         <!-- Contact Info Cards -->
         <div class="contact-info mt-4">
           <div class="d-flex align-items-start mb-3">
             <div class="bg-primary bg-opacity-10 rounded-circle p-3 me-3" style="min-width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
@@ -250,6 +243,12 @@
               <a href="mailto:info@brainhealthcare.com" class="text-decoration-none text-muted">info@brainhealthcare.com</a>
             </div>
           </div>
+        </div>
+        <div class="map_contact rounded-3 overflow-hidden shadow-sm" style="min-height: 450px;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.48446896588823!2d75.78989738719902!3d26.847854962073487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db7302f6cbc81%3A0xe2ca4d5ea2b17333!2sBrain%20Health%20Care%20At%20Home%20%7C%20Best%20Home%20Nursing%20Care%20Services%20in%20Jaipur%20%7C!5e0!3m2!1sen!2sin!4v1699253498861!5m2!1sen!2sin"
+            width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Brain Health Care Location"></iframe>
         </div>
       </div>
     </div>
