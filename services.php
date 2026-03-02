@@ -360,7 +360,7 @@
             <div class="image-overlay"></div>
           </div>
           <div class="service-body">
-            <div class="service-icon equipment-icon"><i class="fa-solid fa-activity"></i></div>
+            <div class="service-icon equipment-icon"><i class="fa-solid fa-thermometer"></i></div>
             <h4 class="service-title">B.P., Sugar, Pulse & Oxygen Check</h4>
             <p class="service-description">Comprehensive vital sign monitoring including blood pressure, glucose, pulse rate, and oxygen saturation assessment.</p>
             <div class="service-features">
