@@ -10,7 +10,7 @@
       <div class="col-md-2">
 
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="sec-2">
           <h2>
             Quick Links
@@ -24,7 +24,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <div class="sec-4">
           <h2>
             Contact Info
