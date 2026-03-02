@@ -28,14 +28,14 @@
     </style>
   </head>
 <body>
-    <section class="top-header">
+    <section class="top-header " style="background: linear-gradient(90deg, #4d4486, #0b6e45);">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-4 text-first">
             <div class="social-icon">
-              <a target="_blank" href="https://www.facebook.com/share/1Eo7pzwwtW/">  <i class="fa-brands fa-facebook-f"></i></a>
-              <a target="_blank" href="https://www.instagram.com/brain.health.care.at.home">   <i class="fa-brands fa-instagram"></i></a>
-              <a target="_blank" href="https://youtube.com/@brainhealthcareathomejaipur?si=Bl578Hreh-8FgxGR">  <i class="fa-brands fa-youtube"></i></a>
+              <a target="_blank" href="#">  <i class="fa-brands fa-facebook-f"></i></a>
+              <a target="_blank" href="#">   <i class="fa-brands fa-instagram"></i></a>
+              <a target="_blank" href="#">  <i class="fa-brands fa-youtube"></i></a>
             </div>
           </div>
           <div class="col-md-8 col-8">
